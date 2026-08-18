@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "graphify": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with",
+        "graphifyy",
+        "--with",
+        "mcp",
+        "graphify-mcp",
+        "${CLAUDE_PROJECT_DIR:-.}/graphify-out/graph.json"
+      ]
+    }
+  }
+}
